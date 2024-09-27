@@ -1,0 +1,35 @@
+.container {
+    padding: 2%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2vw;
+    width: 90%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.event {
+    width: 90%;
+    border: 1px solid;
+    text-align: left;
+    padding: 2% 5%;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex a {
+    text-decoration: none;
+    color: blue;
+}
+
+.name {
+    font-size: 1.5rem;
+    padding: 0 5% 2%;
+}
